@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.store {
+  width: 80%;
+  border: 1px solid grey;
+}
+
+.set-icon {
+  text-align: end;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+/*-----------------------------------------------*/
+
+.cards-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.card .name {
+  text-align: center;
+}
+
+.card .color {
+  text-align: center;
+}
+
+.card-img {
+  display: flex;
+  width: 300px;
+}
+
+.card-img img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.item-and-cart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+.item-and-cart .price,
+.item-and-cart .button {
+  color: red;
+}
+
+.item-and-cart .button {
+  display: flex;
+  width: 35%;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*-----------------------------------------------*/
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 150px;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.item-img {
+  display: flex;
+  width: 150px;
+  justify-content: flex-start;
+}
+
+.item-img img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.item .name {
+  display: flex;
+  align-items: center;
+}
+
+.item .color {
+  display: flex;
+  align-items: center;
+}
+
+.item .price {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.item .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 20%;
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: red;
+  margin-top: auto;
+  margin-bottom: auto;
+}
